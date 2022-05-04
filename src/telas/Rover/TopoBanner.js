@@ -1,22 +1,20 @@
 
-import reactDom from 'react-dom';
-import { Image, Text, StyleSheet, Dimensions, View } from 'react-native'
+import { SafeAreaView, Image, Text, StyleSheet, Dimensions} from 'react-native'
 
 import perseverance from '../../../assets/perseverance.jpg'
 
 const width = Dimensions.get('screen').width;
 
 export function TopoBanner() {
-    return <View style={styles.container}>
-       <Image style={styles.banner} source={perseverance}/>
-       <Text style={styles.titulo}>Perseverance</Text>
-
-    </View>
+    return <SafeAreaView style={styles.container}>
+            <Image style={styles.banner} source={perseverance}/>
+            <Text style={styles.titulo}>Perseverance</Text>
+    </SafeAreaView>
 }
 
 const styles = StyleSheet.create({
 container: {
-    marginTop: 30,
+    marginTop: 35,
         width: width
     },
 
@@ -34,6 +32,5 @@ container: {
         color: "yellow",
         fontWeight: "bold",
         lineHeight: 40,
-        fontFamily: 'Roboto',
     },
 })
