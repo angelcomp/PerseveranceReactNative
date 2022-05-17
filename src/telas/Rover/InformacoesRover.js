@@ -4,7 +4,6 @@ import { Image, Text, StyleSheet, View } from 'react-native'
 import logoNasa from '../../../assets/nasa.png'
 
 const sobreString = 'O antecessor do Perseverance foi o robô Curiosity, que confirmou que existiram condições de vida em Marte, já o Perseverance que tem o tamanho de um carro e pesa cerca de uma tonelada, conta com novos instrumentos, cerca de 20 câmeras, um helicóptero e até microfones, vai agora dar o próximo passo e tentar responder uma das grandes questões da astrobiologia: há sinais concretos de vida microbiana passada em Marte? A cratera Jezero que foi o local de pouso, já foi, há 3,5 bilhões de anos, permeada por rios e lagos, os quais podem ter abrigado vida. Por esse motivo, Perseverance foi desenvolvido para analisar rochas e o solo da região em busca de sinais de vida antiga, ele coletará amostras que serão trazidas à Terra no futuro e testará tecnologias pioneiras para uma eventual presença humana no planeta vermelho.'
-//const sobreString = 'O antecessor do Perseverance foi o robô Curiosity, que confirmou que existiram condições de vida em Marte, já o Perseverance que tem o tamanho de um carro e pesa cerca de uma tonelada, conta com novos instrumentos, cerca de 20 câmeras, um helicóptero e até microfones, vai agora dar o próximo passo e tentar responder uma das grandes questões da astrobiologia: há sinais concretos de vida microbiana passada em Marte? A cratera Jezero que foi o local de pouso, já foi, há 3,5 bilhões de anos, permeada por rios e lagos, os quais podem ter abrigado vida. Por esse motivo, Perseverance foi desenvolvido para analisar rochas e o solo da região em busca de sinais de vida antiga, ele coletará amostras que serão trazidas à Terra no futuro e testará tecnologias pioneiras para uma eventual presença humana no planeta vermelho.'
 
 export function InformacoesRover() {
     return <View style={styles.container}>
@@ -86,7 +85,7 @@ const styles = StyleSheet.create({
         textAlign: 'right'
     },
     containerNasa:{
-        padding: 30,
+        padding: 20,
         width:'100%',
         bottom: 0,
     },
